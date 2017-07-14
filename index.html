@@ -21,18 +21,56 @@
   background-color: #555;
 }
 </style>
-	<meta charset="UTF-8">
+<style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>	
+		<meta charset="UTF-8">
    <title>Byzantine Empire</title>
 <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 <link rel="java" href="java.js" type="text/js"/>
  </head>
  <body>
 	 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-	 <div class="div1">
-<form action="wikipedia.html">   <input type="submit" value="Wikipedia Article" />
-</div><h1>The Byzantine Empire</h1>
-		 <center><h6>From Wikipedia, the free encyclopedia
-</h6><center>
+	 
+<ul>
+  <li><a class="active" href="index.html">The Byzantine Empire-Home</a></li>
+  <li><a href="army.html">The Byzantine Empire-Army</a></li>
+  <li><a href="sources.html">Sources</a></li>
+  <li><a href="wikipedia.html">Wikipedia Article</a></li>
+</ul>
+	<h1>The Byzantine Empire</h1>
+		 <center><h6>From Wikipedia, the free encyclopedia</h6><center>
 		<center><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Byzantine_Empire_animated.gif" alt="Byzantine-Empire" style="width: 800px; height: 370px; border: 10px"></center>
 		<h4>Animated image showing the growth of the Empire. From Wikipedia, the free encyclopedia</h4>
 
